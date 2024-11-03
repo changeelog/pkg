@@ -1,24 +1,20 @@
 {
-  "publisher": "antfu",
-  "name": "ext-name",
-  "displayName": "ext-name",
+  "publisher": "changeelog",
+  "name": "pkg",
+  "displayName": "pkg",
   "version": "0.0.0",
   "private": true,
   "packageManager": "pnpm@9.7.1",
   "description": "",
-  "author": "Anthony Fu <anthonyfu117@hotmail.com>",
+  "author": "changeelog",
   "license": "MIT",
-  "funding": "https://github.com/sponsors/antfu",
-  "homepage": "https://github.com/antfu/ext-name#readme",
+  "homepage": "https://github.com/changeelog/pkg#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/antfu/ext-name"
+    "url": "https://github.com/changeelog/pkg"
   },
   "bugs": {
-    "url": "https://github.com/antfu/ext-name/issues"
-  },
-  "sponsor": {
-    "url": "https://github.com/sponsors/antfu"
+    "url": "https://github.com/changeelog/pkg/issues"
   },
   "categories": [
     "Other"
@@ -37,10 +33,13 @@
     "onStartupFinished"
   ],
   "contributes": {
-    "commands": [],
+    "commands": [{
+      "command": "changeelog.runPackageManager",
+      "title": "Run Package Manager Command"
+    }],
     "configuration": {
       "type": "object",
-      "title": "ext-name",
+      "title": "pkg",
       "properties": {}
     }
   },
