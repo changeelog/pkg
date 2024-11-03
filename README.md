@@ -20,4 +20,4 @@
 
 ## License
 
-[MIT](./LICENSE.md) License © 2022 [changeelog](https://github.com/changeelog)
+[MIT](./LICENSE.md) License © 2024 [changeelog](https://github.com/changeelog)
